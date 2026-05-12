@@ -3,69 +3,306 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Professional Profile</title>
+    <title>Navjot Singh | Precision Agriculture Research</title>
+    <meta
+      name="description"
+      content="Navjot Singh is a precision agriculture researcher and PhD student focused on digital agriculture, machine learning, computer vision, drones, and weed science."
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
-      <img
-        src="images/25FD9FEF-2130-45EB-91DF-70129413114D.jpeg"
-        alt="Portrait with mountains"
-      />
-      <h1>Your Name</h1>
-      <p>Professional Title or Tagline</p>
+      <div class="hero-media" aria-hidden="true">
+        <img
+          src="images/25FD9FEF-2130-45EB-91DF-70129413114D.jpeg"
+          alt=""
+        />
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Precision Agriculture Research</p>
+        <h1>Navjot Singh</h1>
+        <p>
+          Research Associate and PhD student at Texas A&amp;M applying data
+          engineering, machine learning, computer vision, and drones to digital
+          agriculture.
+        </p>
+        <div class="hero-actions" aria-label="Primary contact links">
+          <a href="mailto:navjotnangia@gmail.com">Email</a>
+          <a
+            href="https://www.linkedin.com/in/navjot-singh-nangia"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div class="hero-highlights" aria-label="Research focus areas">
+          <span>Digital Ag</span>
+          <span>Computer Vision</span>
+          <span>Drone Imaging</span>
+          <span>Weed Science</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+        <span></span>
+      </a>
     </header>
-    <nav>
+
+    <nav aria-label="Main navigation">
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#degree">Education</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#publications">Publications</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Add a brief biography here. Tell visitors who you are and what makes you
-        unique.
-      </p>
-    </section>
-    <section id="degree">
-      <h2>Education</h2>
-      <p>Include your degree details and academic achievements here.</p>
-    </section>
-    <section id="work">
-      <h2>Work Experience</h2>
-      <p>Describe your professional experience and roles you've held.</p>
-    </section>
-    <section id="achievements">
-      <h2>Achievements</h2>
-      <p>List your awards, honors, and significant milestones.</p>
-    </section>
-    <section id="publications">
-      <h2>Publications</h2>
-      <p>Mention any papers, articles, or reports you have authored.</p>
-    </section>
-    <section id="gallery">
-      <h2>Gallery</h2>
-      <div class="gallery-grid">
-        <img src="images/AE990D6C-FB60-4C68-B427-ECB6AD6FD4B3.jpeg" alt="Research photo 1" />
-        <img src="images/101FEB44-7919-4C30-9808-6751F7BB72AF.jpeg" alt="Research photo 2" />
-        <img src="images/F7FC7C6D-1425-4A97-803F-3B32059BCF34.jpeg" alt="Research photo 3" />
-        <img src="images/88B54EA8-F74C-4820-8312-B72B447E906F.jpeg" alt="Research photo 4" />
-        <img src="images/D3838022-BF74-4FD7-9EE6-D339F3CD1740.jpeg" alt="Research photo 5" />
-        <img src="images/F943CAD5-39CB-4DC6-8C5C-1E2E3722034A.jpeg" alt="Research photo 6" />
-        <img src="images/EFC9B4F3-194E-4BF0-A2EF-ABA9C998667B.jpeg" alt="Research photo 7" />
-        <img src="images/7B48C8EA-5613-4F70-930E-49FFAF5C264B.jpeg" alt="Research photo 8" />
-        <img src="images/B14ABC10-2C77-4AB6-9482-15BFB959E034.jpeg" alt="Research photo 9" />
+
+    <main>
+      <section id="about" class="intro-section reveal">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Digital agriculture, field research, and applied AI.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            Precision Agriculture Research Associate and PhD student at Texas
+            A&amp;M focused on applying machine learning, computer vision, and
+            data engineering in digital agriculture. Passionate about leveraging
+            drones and AI for smarter crop and weed management.
+          </p>
+          <div class="metric-grid" aria-label="Profile highlights">
+            <article>
+              <strong>3+ yrs</strong>
+              <span>Precision Ag Research</span>
+            </article>
+            <article>
+              <strong>PhD</strong>
+              <span>Digital Ag Weed Science</span>
+            </article>
+            <article>
+              <strong>4</strong>
+              <span>Featured Research Areas</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="reveal">
+        <p class="section-kicker">Top Skills</p>
+        <h2>Research Toolkit</h2>
+        <div class="skill-grid">
+          <article>
+            <span>01</span>
+            <h3>FiftyOne</h3>
+            <p>Dataset curation and computer vision workflow support.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Agronomy</h3>
+            <p>Crop science, field trials, and water-use efficiency research.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Drone</h3>
+            <p>UAV-based imaging, NDVI mapping, and precision scouting.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Machine Learning</h3>
+            <p>Applied models for weed, crop, and field-condition analysis.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="reveal">
+        <p class="section-kicker">Experience</p>
+        <h2>Research and Field Science</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div>
+              <h3>PhD Student</h3>
+              <p>Texas A&amp;M University</p>
+            </div>
+            <span>August 2024 - Present</span>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <h3>Precision Ag Research Associate</h3>
+              <p>Texas A&amp;M University</p>
+            </div>
+            <span>November 2022 - Present</span>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <h3>Weed Science Tech.</h3>
+              <p>University of Florida, Pensacola, Florida</p>
+            </div>
+            <span>May 2020 - November 2022</span>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <h3>Research Technician</h3>
+              <p>Lab for Atmospheric Biogeosciences, University of Georgia</p>
+            </div>
+            <span>September 2019 - March 2020</span>
+          </article>
+          <article class="timeline-item">
+            <div>
+              <h3>Graduate Research Student</h3>
+              <p>University of Georgia, Griffin, Georgia</p>
+            </div>
+            <span>May 2016 - May 2019</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="reveal">
+        <p class="section-kicker">Selected Research</p>
+        <h2>Field Studies and Digital Agriculture Projects</h2>
+        <div class="project-grid">
+          <article>
+            <span class="project-tag">Thesis</span>
+            <h3>Water-Use Efficiency in Peanut</h3>
+            <p>
+              Compared single-row and twin-row peanut planting patterns using
+              eddy covariance, soil temperature, and soil moisture sensors.
+            </p>
+          </article>
+          <article>
+            <span class="project-tag">Field Study</span>
+            <h3>Planting Date and Peanut Water Use</h3>
+            <p>
+              Evaluated how different planting dates affect peanut water-use
+              efficiency through field measurements and eddy-covariance data.
+            </p>
+          </article>
+          <article>
+            <span class="project-tag">Remote Sensing</span>
+            <h3>NDVI-Based Irrigation Planning</h3>
+            <p>
+              Used drone-mounted multispectral cameras to detect water stress
+              and calibrate NDVI maps with field and plant-water data.
+            </p>
+          </article>
+          <article>
+            <span class="project-tag">Irrigation</span>
+            <h3>Pecan Orchard Water Stress</h3>
+            <p>
+              Measured evapotranspiration and environmental controls to support
+              better irrigation decisions in pecan orchards.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="degree" class="reveal">
+        <p class="section-kicker">Education</p>
+        <h2>Academic Background</h2>
+        <div class="education-list">
+          <article>
+            <h3>Texas A&amp;M University</h3>
+            <p>Doctor of Philosophy, Digital Ag Weed Science</p>
+            <span>Started July 2024</span>
+          </article>
+          <article>
+            <h3>The University of Georgia</h3>
+            <p>Master's degree, Agronomy and Crop Science</p>
+            <span>2016 - 2018</span>
+          </article>
+          <article>
+            <h3>Punjab Agricultural University</h3>
+            <p>BS, Agriculture, General</p>
+            <span>2011 - 2015</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="reveal">
+        <p class="section-kicker">Gallery</p>
+        <h2>Field and Research Moments</h2>
+        <div class="gallery-grid">
+          <img src="images/AE990D6C-FB60-4C68-B427-ECB6AD6FD4B3.jpeg" alt="Research field photo 1" />
+          <img src="images/101FEB44-7919-4C30-9808-6751F7BB72AF.jpeg" alt="Research field photo 2" />
+          <img src="images/F7FC7C6D-1425-4A97-803F-3B32059BCF34.jpeg" alt="Research field photo 3" />
+          <img src="images/88B54EA8-F74C-4820-8312-B72B447E906F.jpeg" alt="Research field photo 4" />
+          <img src="images/D3838022-BF74-4FD7-9EE6-D339F3CD1740.jpeg" alt="Research field photo 5" />
+          <img src="images/F943CAD5-39CB-4DC6-8C5C-1E2E3722034A.jpeg" alt="Research field photo 6" />
+          <img src="images/EFC9B4F3-194E-4BF0-A2EF-ABA9C998667B.jpeg" alt="Research field photo 7" />
+          <img src="images/7B48C8EA-5613-4F70-930E-49FFAF5C264B.jpeg" alt="Research field photo 8" />
+          <img src="images/B14ABC10-2C77-4AB6-9482-15BFB959E034.jpeg" alt="Research field photo 9" />
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="reveal">
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2>College Station, Texas</h2>
       </div>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: your.email@example.com</p>
-    </section>
+      <div class="contact-links">
+        <a href="mailto:navjotnangia@gmail.com">navjotnangia@gmail.com</a>
+        <a
+          href="https://www.linkedin.com/in/navjot-singh-nangia"
+          target="_blank"
+          rel="noreferrer"
+        >
+          linkedin.com/in/navjot-singh-nangia
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const root = document.documentElement;
+      const revealItems = document.querySelectorAll(
+        ".reveal, .skill-grid article, .project-grid article, .education-list article, .timeline-item, .gallery-grid img"
+      );
+
+      revealItems.forEach((item, index) => {
+        item.style.setProperty("--reveal-delay", `${Math.min(index * 45, 360)}ms`);
+      });
+
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.16, rootMargin: "0px 0px -8% 0px" }
+      );
+
+      revealItems.forEach((item) => revealObserver.observe(item));
+
+      let ticking = false;
+      const updateScroll = () => {
+        const progress = Math.min(window.scrollY / window.innerHeight, 1);
+        root.style.setProperty("--hero-progress", progress.toFixed(3));
+        root.style.setProperty("--hero-y", `${(progress * 38).toFixed(1)}px`);
+        root.style.setProperty("--hero-scale", (1.06 + progress * 0.035).toFixed(3));
+        ticking = false;
+      };
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (!ticking) {
+            window.requestAnimationFrame(updateScroll);
+            ticking = true;
+          }
+        },
+        { passive: true }
+      );
+
+      updateScroll();
+    </script>
   </body>
 </html>
